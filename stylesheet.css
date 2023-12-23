@@ -42,8 +42,66 @@ img + p {
     padding-top: 70px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    padding-bottom: 8px;
 }
 
 form {
     background-color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+form p {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+fieldset {
+    padding-left: 25px;
+    display: flex;
+    border: none;
+    margin-bottom: 8px;
+}
+
+.form_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-right: 48px;
+}
+
+.last {
+    margin-bottom: 14px;
+}
+
+label {
+    font-size: 12px;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid rgb(161, 161, 161);
+    padding: 4px;
+    padding-left: 8px;
+    font-size: 12px;
+    height: 18px;
+    width: 200px;
+}
+
+.button_field {
+    background-color: rgb(237, 239, 242);
+    padding-left: 25px;
+    padding-top: 18px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: #596D48;
+    width: 150px;
+    height: 40px;
+    color: white;
 }
